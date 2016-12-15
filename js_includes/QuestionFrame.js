@@ -67,10 +67,10 @@ $.widget("ui.QuestionFrame", {
             children:    [
 			"AudioPresentation", {"f": this.options.f},
 			"FlashSentence", {	s: this.options.s},
-			"QuestionSide", {q: "How natural and coherent does the speaker's tone of voice sound?", 
+			"QuestionSide", {q: "How natural does the speaker's tone of voice sound?", 
 			            as: ["1", "2", "3", "4", "5"],
 			            presentAsScale: true,
-			            leftComment: "Very Odd",
+			            leftComment: "Awkward",//"Very Odd",
 			            rightComment: "Perfectly Normal",
 			            },
 			
@@ -91,7 +91,7 @@ $.widget("ui.QuestionFrame", {
 							},
 
 			"QuestionB", {
- 							q:              "What is the intensity of the emotion?",
+ 							q:              "How expressive is the emotion conveyed?",//"What is the intensity of the emotion?",
                             as:             ["1","2","3","4","5"],
                             hasCorrect:     false,
 							followupMessage: null,
@@ -107,7 +107,7 @@ $.widget("ui.QuestionFrame", {
 							},
 							
 			"FreeTextQuestion", {
-							q:              "Does the sentence the speaker uttered explain why they felt the particular emotion? Why or why not?",
+							q:              "How does the sentence the speaker uttered relate to the emotion being conveyed?",//"Does the sentence the speaker uttered explain why they felt the particular emotion? Why or why not?",
 	                        as:             ["1","2","3","4","5"],
 	                        hasCorrect:     false,
 							followupMessage: null,

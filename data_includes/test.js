@@ -121,7 +121,7 @@ var items = [
     //
     //*** Version 1, pilot ***
     ["pract", "QuestionFrame", {f: "https://dl.dropboxusercontent.com/u/20613672/all_stitched/cwhat_conf3.wav", s: "What she's never done that before", target: "Each can with a label is blue."}],
-    ["pract", "QuestionFrame", {f: "https://dl.dropboxusercontent.com/u/20613672/all_stitched/ewhat_conf3.wav", s: "What she's never done that before", target: "Each can with a label is blue."}],
+    ["pract", "QuestionFrame", {f: "https://dl.dropboxusercontent.com/u/20613672/all_stitched/ewhat_conf3.wav", s: "What she's never done that before.", target: "Each can with a label is blue."}],
     ["pract2", "QuestionFrame", {f: "https://dl.dropboxusercontent.com/u/20613672/all_stitched/dgod_exclam2.wav", s: "God a package arrived for you", target: "Each can with a label is blue."}],
     ["pract2", "QuestionFrame", {f: "https://dl.dropboxusercontent.com/u/20613672/all_stitched/dwhat_exclam2.wav", s: "What a package arrived for you", target: "Each can with a label is blue."}],
     
