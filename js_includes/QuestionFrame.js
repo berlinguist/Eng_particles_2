@@ -91,7 +91,7 @@ $.widget("ui.QuestionFrame", {
 							},
 
 			"QuestionB", {
- 							q:              "How expressive is the emotion conveyed?",//"What is the intensity of the emotion?",
+ 							q:              "How expressive is the speaker's emotion here?",//"What is the intensity of the emotion?",
                             as:             ["1","2","3","4","5"],
                             hasCorrect:     false,
 							followupMessage: null,
